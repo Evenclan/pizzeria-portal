@@ -2,14 +2,16 @@ import React from 'react';
 import styles from './MainLayout.module.scss';
 import PageNav from '../PageNav/PageNav';
 
-const MainLayout = () => (
+class MainLayout extends React.Component {
 
-  <div className={styles.component}>
-    
-    <PageNav />
+  render() {
 
-  </div>
-
-);
+    return (
+      <div className={styles.component}>
+        <PageNav />
+      </div>
+    );
+  }
+}
 
 export default MainLayout;
