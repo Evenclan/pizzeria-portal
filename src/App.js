@@ -17,7 +17,6 @@ import OrderNew from './components/views/Waiter/OrderNew';
 
 function App() {
   return (
-
     <BrowserRouter>
       <MainLayout>
         <Switch>
@@ -26,12 +25,12 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL}/login`} component={Login} />
           <Route exact path={`${process.env.PUBLIC_URL}/tables`} component={Tables} />
           <Route exact path={`${process.env.PUBLIC_URL}/tables/booking/:id`} component={BookingID} />
-          <Route exact path={`${process.env.PUBLIC_URL}/tables/booking/new`} component={BookingNew} />
-          <Route exact path={`${process.env.PUBLIC_URL}/tables/events/:id`} component={EventsID} />
+          <Route exact path={`${process.env.PUBLIC_URL}/tables/bookings/new`} component={BookingNew} />
+          <Route exact path={`${process.env.PUBLIC_URL}/tables/event/:id`} component={EventsID} />
           <Route exact path={`${process.env.PUBLIC_URL}/tables/events/new`} component={EventsNew} />
           <Route exact path={`${process.env.PUBLIC_URL}/waiter`} component={Waiter} />
-          <Route exact path={`${process.env.PUBLIC_URL}/waiter/order/new`} component={OrderID} />
-          <Route exact path={`${process.env.PUBLIC_URL}/waiter/order/:id`} component={OrderNew} />
+          <Route exact path={`${process.env.PUBLIC_URL}/waiter/order/new`} component={OrderNew} />
+          <Route exact path={`${process.env.PUBLIC_URL}/waiter/order/:id`} component={OrderID} />
         </Switch>
       </MainLayout>
     </BrowserRouter>

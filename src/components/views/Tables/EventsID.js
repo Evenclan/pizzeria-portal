@@ -9,7 +9,7 @@ class EventsID extends React.Component {
 
     return (
       <div className={styles.component}>
-        <h2> EventsID view </h2>
+        <h2> EventsID </h2>
       </div>
 
 

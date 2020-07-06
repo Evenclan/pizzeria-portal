@@ -9,7 +9,7 @@ class BookingID extends React.Component {
 
     return (
       <div className={styles.component}>
-        <h2> BookingID view </h2>
+        <h2> to jest Booking ID</h2>
       </div>
 
 

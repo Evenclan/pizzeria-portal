@@ -1,17 +1,20 @@
 import React from 'react';
-import styles from './MainLayout.module.scss';
+import PropTypes from 'prop-types';
+// import styles from './MainLayout.module.scss';
 import PageNav from '../PageNav/PageNav';
 
-class MainLayout extends React.Component {
 
-  render() {
+const MainLayout = ({ children }) => {
+  return (
+    <div>
+      <PageNav />
+      {children}
+    </div>
+  );
+};
 
-    return (
-      <div className={styles.component}>
-        <PageNav />
-      </div>
-    );
-  }
-}
+MainLayout.propTypes = {
+  children: PropTypes.object,
+};
 
 export default MainLayout;

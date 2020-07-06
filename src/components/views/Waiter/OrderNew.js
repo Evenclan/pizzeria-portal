@@ -7,7 +7,7 @@ class OrderNew extends React.Component {
 
     return (
       <div className={styles.component}>
-        <h2> OrderNew view </h2>
+        <h2> Order New</h2>
       </div>
 
 

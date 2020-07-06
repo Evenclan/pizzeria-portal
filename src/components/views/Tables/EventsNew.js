@@ -9,7 +9,7 @@ class EventsNew extends React.Component {
 
     return (
       <div className={styles.component}>
-        <h2> EventsNew view </h2>
+        <h2> EventsNew </h2>
       </div>
 
 

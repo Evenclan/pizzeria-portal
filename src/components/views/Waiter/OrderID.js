@@ -7,7 +7,7 @@ class OrderID extends React.Component {
 
     return (
       <div className={styles.component}>
-        <h2> OrderID view </h2>
+        <h2> OrderID </h2>
       </div>
     );
   }

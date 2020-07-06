@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Waiter.module.scss';
+import { Link } from 'react-router-dom';
 
 class Waiter extends React.Component {
 
@@ -8,6 +9,9 @@ class Waiter extends React.Component {
     return (
       <div className={styles.component}>
         <h2> Waiter view </h2>
+        <Link to={`${process.env.PUBLIC_URL}/waiter/order/new`}>Order New</Link>
+        <br />
+        <Link to={`${process.env.PUBLIC_URL}/waiter/order/:id`}>Order ID</Link>
       </div>
 
 

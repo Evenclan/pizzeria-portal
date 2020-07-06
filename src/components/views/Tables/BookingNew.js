@@ -9,7 +9,7 @@ class BookingNew extends React.Component {
 
     return (
       <div className={styles.component}>
-        <h2> BookingNew view </h2>
+        <h2> To jest BookingNew</h2>
       </div>
 
 
