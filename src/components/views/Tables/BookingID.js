@@ -3,8 +3,6 @@ import styles from './Tables.module.scss';
 
 class BookingID extends React.Component {
 
-
-
   render() {
 
     return (
